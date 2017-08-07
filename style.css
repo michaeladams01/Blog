@@ -13,18 +13,20 @@ body {
 }
 
 .image-container img {
-
+  overflow:hidden;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Banner Section */
 
 #banner {
-
+  height: 46rem;
   background-image: url('images/gradient.jpg');
   background-position: center;
 
   background-repeat: no-repeat;
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -39,6 +41,11 @@ body {
 
 /* Blog Post */
 
+p{
+  min-width: 200px;
+  min-height: 200px;
+}
+
 #blog {
   width: 86%;
   margin: auto;
@@ -49,6 +56,8 @@ body {
 
 #blog .post {
   width: 52%;
+  display: flex;
+  margin-bottom: 7.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,13 +86,14 @@ body {
 }
 
 .post .image-container {
-  width: auto;
+  width: 100%;
+
 }
 
 /* Blog Images */
 
 .images {
-
+  margin-bottom: 20%;
 }
 
 .images .image-container {
@@ -101,4 +111,8 @@ footer {
   font-size: 1.125rem;
   color: #999999;
   text-align: center;
+}
+
+#dayone{
+  color: red;
 }
