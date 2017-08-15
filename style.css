@@ -21,7 +21,7 @@ body {
 /* Banner Section */
 
 #banner {
-  height: 46rem;
+  height: 30rem;
   background-image: url('images/gradient.jpg');
   background-position: center;
 
@@ -57,7 +57,6 @@ p{
 #blog .post {
   width: 52%;
   display: flex;
-  margin-bottom: 7.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,13 +74,13 @@ p{
 
 .post h3 {
   font-size: 1.125rem;
-  color: #999999;
+  color: salmon;
 }
 
 .post .opening-line {
   margin-top: 4.1875rem;
   margin-bottom: 1.5rem;
-  color: black;
+  color: blue;
   font-weight: bold;
 }
 
