@@ -4,6 +4,7 @@ html{
   font-size: 16px;
   margin: 0;
   padding: 0;
+  text-rendering: geometricPrecision;
 }
 
 .image-container {
@@ -40,8 +41,9 @@ html{
 /* Blog Post */
 
 p{
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 100px;
+  min-height: 100px;
+  margin: 0;
 }
 
 #blog {
@@ -84,6 +86,11 @@ p{
 
 .post .image-container {
   width: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
 
 
 /* Blog Images */
