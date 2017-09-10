@@ -1,11 +1,9 @@
-/* Universal Styles */
+/* Styles */
 
 html{
   font-size: 16px;
-}
-
-body {
-  background-color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .image-container {
@@ -22,9 +20,9 @@ body {
 
 #banner {
   height: 30rem;
-  background-image: url('images/gradient.jpg');
+  background-image: url('images/developer.jpg');
   background-position: center;
-
+  background-size: contain;
   background-repeat: no-repeat;
   display:flex;
   justify-content: center;
@@ -87,7 +85,6 @@ p{
 .post .image-container {
   width: 100%;
 
-}
 
 /* Blog Images */
 
@@ -99,19 +96,4 @@ p{
   display: inline-block;
   width: 50%;
 
-}
-
-/* Footer */
-
-footer {
-  padding: 4rem 0;
-  border-top: 1px solid #999999;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.125rem;
-  color: #999999;
-  text-align: center;
-}
-
-#dayone{
-  color: red;
 }
