@@ -1,3 +1,3 @@
 # WebDevEssentials
 Web developer path
-Contains important concepts that are vital for web developers
+Contains important concepts for web developers
