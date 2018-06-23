@@ -48,6 +48,24 @@
       <h1>Apache Maven</h1>
       <p>Apache Maven is a java tool ; a software project management and comprehension tool. Maven can manage a project's build, reporting and documentation from a central piece of information.</p>
     </div>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      var newyork = {lat: 40.712775, lng: -74.005973};
+      // The map, centered at Uluru
+      var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: newyork});
+      // The marker, positioned at Uluru
+      var marker = new google.maps.Marker({position: newyork, map: map});
+    }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWqW7g5GCzSSiFQEv0V8fET6wzv79vO3Q&callback=initMap">
+    </script>
     <div class="images">
       <div class="image-container">
         <img src=" />

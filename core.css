@@ -12,6 +12,12 @@ html{
 
 
 /* Banner Section */
+#map{
+  /* Set the size of the div element that contains the map */
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+
+}
 
 .header h1{
   font-size: 2.5Rem;
