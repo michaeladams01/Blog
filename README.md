@@ -1,3 +1,3 @@
 # WebDevEssentials
 
-Contains important concepts for web developers
+Contains concepts for web developers
